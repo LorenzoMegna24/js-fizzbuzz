@@ -1,0 +1,50 @@
+body{
+  background-color: #0a2f35;
+}
+.fizz{
+  background-color: #12492f;
+  color: white;
+  text-align: center;
+  padding: 60px 0;
+  margin-bottom: 2%;
+  font-size: 20px;
+  flex-basis: calc(100% / 5 - 2%);
+}
+.fizzbuzz{
+  background-color: #f56038;
+  color: black;
+  text-align: center;
+  padding: 60px 0;
+  margin-bottom: 2%;
+  font-size: 20px;
+  flex-basis: calc(100% / 5 - 2%);
+}
+.buzz{
+  background-color: #f7a325;
+  color: black;
+  text-align: center;
+  padding: 60px 0;
+  margin-bottom: 2%;
+  font-size: 20px;
+  flex-basis: calc(100% / 5 - 2%);
+}
+.numero{
+  background-color: #ffca7a;
+  color: black;
+  text-align: center;
+  padding: 60px 0;
+  margin-bottom: 2%;
+  font-size: 20px;
+  flex-basis: calc(100% / 5 - 2%);
+}
+.contenitore-principale{
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+h1{
+  width: 100%;
+  font-size: 80px;
+}

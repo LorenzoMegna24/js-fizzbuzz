@@ -16,24 +16,40 @@
 let multiploTre = "Fizz"
 let multiploCinque = "Buzz"
 let entrambeMultipli = "FrizzBuzz"
+let lista = document.querySelector('div')
 
 for(let i=1; i<=100; i++){
 
   if( i % 3 == 0 && i % 5 == 0 ){
 
     console.log(entrambeMultipli);
+    let fizzbuzz = document.createElement("span")
+    fizzbuzz.innerHTML += `${entrambeMultipli}`
+    fizzbuzz.className = "fizzbuzz"
+    lista.append(fizzbuzz)
   
   } else if( i % 5 == 0){
 
     console.log(multiploCinque);
+    let buzz = document.createElement("span")
+    buzz.innerHTML += `${multiploCinque}`
+    buzz.className = "buzz"
+    lista.append(buzz)
 
   }
   else if( i % 3 == 0 ){
 
     console.log(multiploTre);
+    let fizz = document.createElement("span")
+    fizz.innerHTML += `${multiploTre}`
+    fizz.className = "fizz"
+    lista.append(fizz)
+
 
   } else{
     console.log(i);
+    document.querySelector('div').innerHTML += `<span class="numero">${i}</span>`
+
   }
 
 }
